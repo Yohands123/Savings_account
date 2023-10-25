@@ -14,7 +14,7 @@ public class SavingAccountdto {
     public String accountnumber;
     @NotBlank
     public String accountholdername;
-    @Email(message = "invalied emailid")
+    @Email(message = "invalid emailid")
     public String email;
     @Pattern(regexp = "^[0-9]{10}$",message = "phone number is invalid")
    
